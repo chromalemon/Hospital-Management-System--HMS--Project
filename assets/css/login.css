@@ -1,0 +1,21 @@
+button {
+    width: 200px;
+    height: 100px;
+    position: static;
+    font-size: 24px;
+    background-color: aqua;
+    
+}
+button1 {
+    left: 300px;
+    top: 100px;
+
+}
+button2 { 
+    left: 300px;
+    top: 100px;
+}
+body {
+    background-image: url("HMSbg.jpg");
+    background-color: chartreuse;
+}

@@ -1,0 +1,29 @@
+button {
+    width: 200px;
+    height: 100px;
+    position: static;
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.button1 {
+    left: 300px;
+    top: 100px;
+
+}
+.button2 { 
+    left: 300px;
+    top: 100px;
+}
+body {
+    background-image: url("/static/images/bg2.jpg");
+    background-size: 1400px 2560px;
+    background-color: rgb(255, 255, 255);
+
+}
+h1 {
+    color:antiquewhite;
+}
+* {
+    font-family: sans-serif;
+}

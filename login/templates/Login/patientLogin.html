@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/patientLogin.css' %}" type="text/css" />
+    <link rel="icon" href="{% static 'images/HMS.png' %}" />
+</head>
+
+<body> 
+    <title> Patient Login </title>
+    
+    <header> <img class = "patientLoginHeader" src="{% static 'images/HMS.png' %}" alt = "Patient Login"/>
+    </header>
+
+    <label for="DOB" class ="date">Enter Date of Birth:</label>
+    <input type="date" id="DOB" name="DOB"/><input type="submit" formaction="/process/" formmethod="GET">
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>

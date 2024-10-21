@@ -1,0 +1,37 @@
+body {
+    background-color: white;
+    place-self: center;
+}
+label.date{
+    position: relative;
+    top: 200px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+input{
+    position:relative;
+    top: 200px;
+    font-size: 30px;
+    border-width: 2px;
+}
+* {
+    font-family: sans-serif;
+}
+img.patientLoginHeader {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 150px;
+    max-width: max-content;
+    height: 150px;
+    max-height: max-content;
+
+}
+header{
+    position: absolute;
+    top:10px;
+    left: 0px;
+    height: 140px;
+    width: 100vw;
+    background-color: rgb(40, 115, 177);
+}
