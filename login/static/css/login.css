@@ -16,9 +16,8 @@ button {
     top: 100px;
 }
 body {
-    background-image: url("/static/images/bg2.jpg");
-    background-size: 1400px 2560px;
-    background-color: rgb(255, 255, 255);
+    background-size: auto;
+    background-image: linear-gradient(to right, blue, white  );
 
 }
 h1 {

@@ -4,10 +4,10 @@ from django.http import HttpResponse
 # Create your views here.
 
 def login(request): 
-     return render(request, "login/login.html")
+     return render(request, "Login/login.html")
 
 def patientLogin(request):
-     return render(request, "login/patientLogin.html")
+     return render(request, "Login/patientLogin.html")
 
 def staffLogin(request):
      pass

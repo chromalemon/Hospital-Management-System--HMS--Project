@@ -1,6 +1,7 @@
 body {
-    background-color: white;
-    place-self: center;
+    background-size: auto;
+    background-image: linear-gradient(to right, lightblue, white  ); 
+
 }
 label.date{
     position: relative;
@@ -33,5 +34,5 @@ header{
     left: 0px;
     height: 140px;
     width: 100vw;
-    background-color: rgb(40, 115, 177);
+    background-color: turquoise;
 }
